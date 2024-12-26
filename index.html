@@ -5,8 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>To-Do list</title>
   <link rel="stylesheet" href="./style.css">
+  <div class="user-name">
+    <h1>Введите Ваше имя:</h1>
+    <input type="text" id="userName" placeholder="Введите имя">
+      <button id="saveNameBtn">Сохранить</button>
+  </div>
 </head>
 <body>
+  <div class="main">
+    <h1 class="spisok">Список задач</h1>
+    <div class="input">
+      <input type="text" id="taskInput" placeholder="Введите задачу">
+      <button id="addTaskBtn">Добавить</button>
+    </div>
+    <div class="filter-buttons">
+      <button id="all" type="button">Показать все</button>
+      <button id="completed" type="button">Показать выполненные</button>
+      <button id="incomplete" type="button">Показать невыполненные</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
   <script src="./main.js"></script>
 </body>
 </html>
