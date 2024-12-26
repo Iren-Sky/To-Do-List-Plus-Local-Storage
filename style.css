@@ -1,0 +1,113 @@
+.user-name {
+  display: flex;
+  padding: 40px;
+  background-color: rgb(142, 237, 237);
+  text-align: center;
+}
+
+#userName {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 400px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#saveNameBtn {
+  height: 35px;
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 5px;
+  background-color:rgb(132, 206, 240)
+}
+
+.main {
+  border-radius: 6px;
+  background-color:rgb(227, 222, 217);
+  width: 600px;
+}
+
+.spisok {
+  text-align: center;
+}
+
+#taskInput {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 430px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#addTaskBtn {
+  height: 35px;
+  margin-top: 20px;
+  width: 125px;
+  border-radius: 5px;
+  background-color:rgb(132, 206, 240)
+}
+
+.filter-buttons {
+display: flex;
+justify-content: space-between;
+height: 35px;
+margin-top: 20px;
+border-radius: 5px;
+background-color:rgb(227, 222, 217);
+}
+
+#all {
+  border-radius: 5px;
+  background-color:rgb(132, 206, 240)
+}
+
+#completed {
+  border-radius: 5px;
+  background-color:rgb(167, 239, 217)
+}
+
+#incomplete {
+  border-radius: 5px;
+  background-color:rgb(238, 153, 154)
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.complete {
+  border-radius: 5px;
+  margin-right: 15px;
+  background-color:rgb(167, 239, 217)
+}
+
+.edit {
+  border-radius: 5px;
+  margin-right: 15px;
+  background-color:rgb(234, 241, 148)
+}
+
+.delete {
+  border-radius: 5px;
+  margin-right: 15px;
+  background-color:rgb(238, 153, 154)
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+li.completed span {
+  text-decoration: line-through;
+}
